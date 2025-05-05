@@ -1,0 +1,108 @@
+#licensesPlate,
+#accessories {
+  padding: 2% 8% 5% 8%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  box-sizing: border-box;
+}
+
+.licenses-plate-title {
+  margin-bottom: 0;
+}
+
+.first-product {
+  display: flex;
+  flex-direction: column;
+}
+
+.second-product {
+  display: flex;
+  flex-direction: column;
+}
+
+.third-product {
+  display: flex;
+  flex-direction: column;
+}
+
+.products {
+  align-items: center;
+}
+
+.plates-text {
+  width: 100%;
+  min-height: 120px;
+  margin-top: 210px;
+  margin-bottom: 15px;
+  color: #6A6867;
+  font-size: 14px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border: 1px solid #05386b;
+  border-radius: 4px;
+}
+
+.tile-plates-section {
+  font-weight: 600;
+  font-size: medium;
+  color: #05386b;
+  margin-top: 0;
+}
+
+.product-image {
+  width: 200px;
+  position: absolute;
+}
+
+@media (min-width: 768px) {
+  .first-product {
+    flex-direction: row;
+  }
+
+  .second-product {
+    flex-direction: row-reverse;
+    /* margin-top: 30px; */
+  }
+
+  .products {
+    margin-bottom: 30px;
+  }
+
+  .licenses-plate-title {
+    margin-bottom: 45px;
+  }
+
+  .plates-text {
+    margin-top: 0;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .product-image {
+    width: 220px;
+  }
+
+  .first-product > .plates-text {
+    margin-left: 240px;
+  }
+
+  .second-product > .plates-text {
+    margin-right: 240px;
+  }
+}
+
+@media (min-width: 992px) {
+  .products {
+    margin-bottom: 70px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #licensesPlate,
+  #accessories {
+    padding: 0% 10% 0% 10%;
+  }
+
+  .products {
+    margin-bottom: 100px;
+  }
+}
