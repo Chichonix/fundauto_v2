@@ -1,0 +1,192 @@
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: x-small;
+  color: white;
+  background-color: #05386B;
+  margin-top: 50px;
+  padding: 20px 5%;
+  box-sizing: border-box;
+}
+
+.right-side,
+.medium-side,
+.left-side {
+  height: 100%;
+  width: 100%;
+}
+
+.phones-footer,
+.email-footer,
+.schedule,
+.location-footer {
+  display: flex;
+  align-items: center;
+}
+
+.mobile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.phone-icon-footer {
+  width: 13px;
+  padding-right: 7px;
+}
+
+.fax-icon-footer {
+  width: 14px;
+  padding-right: 7px;
+}
+
+
+.mobile-icon-footer {
+  width: 15px;
+  padding-right: 5px;
+}
+
+.facebook-icon {
+  width: 15px;
+  margin-bottom: 13px;
+}
+
+.email-footer {
+  color: white;
+  text-decoration: none;
+}
+
+.email-icon-footer {
+  width: 12px;
+  padding-right: 7px;
+}
+
+.medium-right-side {
+  width: 100%;
+}
+
+.medium-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.schedule-group,
+.location-footer {
+  margin-top: 0;
+}
+
+.schedule {
+  width: 100%;
+}
+
+.watch-icon-footer {
+  width: 14px;
+  margin-bottom: 1em;
+  padding-right: 7px;
+}
+
+.schedule-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.schedule-text-footer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.location-icon-footer {
+  width: 15px;
+  padding-right: 7px;
+}
+
+.location-link-footer {
+  color: white;
+  text-decoration: none;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: auto;
+}
+
+.footer-paragraph {
+  margin: 0;
+  text-align: end;
+}
+
+.company-name {
+  margin: 10px 0;
+}
+
+@media (min-width: 576px) {
+  .footer {
+    flex-direction: row;
+    font-size: small;
+  }
+
+  .phone-icon-footer {
+    width: 18px;
+  }
+
+  .fax-icon-footer{
+    width: 19px;
+  }
+
+
+  .mobile-icon-footer {
+    width: 20px;
+  }
+
+  .facebook-icon {
+    width: 20px;
+  }
+
+  .email-icon-footer {
+    width: 16px;
+  }
+
+  .watch-icon-footer {
+    width: 20px;
+  }
+
+  .schedule,
+  .location-footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .location-footer {
+    margin-top: 0;
+  }
+
+  .location-icon-footer {
+    width: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .medium-right-side {
+    width: 66%;
+  }
+
+  .left-side {
+    width: 34%;
+  }
+
+  .schedule,
+  .location-footer {
+    justify-content: flex-start;  }
+}
+
+@media (min-width: 992px) {
+  .footer {
+    flex-direction: row;
+    padding: 20px 10%;
+  }
+}

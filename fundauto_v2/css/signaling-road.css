@@ -1,0 +1,227 @@
+#signalingRoad {
+  flex-direction: column;
+  padding: 3% 5% 5% 5%;
+  box-sizing: border-box;
+}
+
+.signaling-road {
+  min-height: calc(100vh - 150px);
+  background-image: url('/img/signaling-road/stop.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position-y: 50px;
+  background-position-x: center;
+  color: white;
+}
+
+.signaling-road-title {
+  padding-left: 3%;
+}
+
+.text-box {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 25px;
+  box-sizing: border-box;
+  background-color: #000000ae;
+}
+
+.signaling-type {
+  font-style: italic;
+  font-weight: 700;
+}
+
+.images-groups {
+  width: 100%;
+  height: 400px;
+}
+
+.images-column {
+  padding: 0;
+  position: absolute;
+}
+
+.images-column-middle {
+  transform: translateX(25%);
+}
+
+.images-column-right {
+  transform: translateX(-8%);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+
+.image-wide {
+  height: 20px;
+  margin-right: 15px;
+}
+
+.image-40 {
+  width: 40px;
+  margin-right: 5px;
+}
+
+.image-50 {
+  width: 50px;
+}
+
+.image-60 {
+  width: 60px;
+}
+
+.image-70 {
+  width: 70px;
+}
+
+.image-80 {
+  width: 80px;
+}
+
+.image-90 {
+  width: 90px;
+}
+
+.image-120 {
+  width: 120px;
+}
+
+.signals {
+  width: 60px;
+}
+
+.warning-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.warning-icon {
+  width: 30px;
+  min-width: 30px;
+  margin-right: 15px;
+}
+
+.contact-link {
+  font-size: x-large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  text-decoration: none;
+  color: white;
+  padding: 25px 0 0 0;
+  box-sizing: border-box;
+}
+
+.phone-icon-signaling,
+.email-icon-signaling {
+  width: 17px;
+  min-width: 17px;
+  padding: 0 7px
+}
+
+.image-hided {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.image-showed {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+::ng-deep app-footer div.footer {
+  margin-top: 0 !important;
+}
+
+@media (min-width: 425px) {
+  .images-column-left {
+    transform: translateX(23%);
+  }
+
+  .images-column-middle {
+    transform: translateX(57%);
+  }
+
+  .images-column-right {
+    transform: translateX(10%);
+  }
+}
+
+@media (min-width: 576px) {
+  #signalingRoad {
+    padding: 3% 5% 5% 5%;
+  }
+
+  .signaling-road {
+    background-position-y: 100px;
+  }
+
+  .signals {
+    width: 70px;
+  }
+
+  .images-column-left {
+    transform: translateX(90%);
+  }
+
+  .images-column-middle {
+    transform: translateX(150%);
+  }
+
+  .images-column-right {
+    transform: translateX(70%);
+  }
+}
+
+@media (min-width: 768px) {
+  .signaling-road {
+    background-position-y: 100px;
+  }
+}
+
+@media (min-width: 820px) {
+  .images-groups {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .images-column {
+    position: relative;
+  }
+
+  .images-column-left {
+    transform: none;
+  }
+
+  .images-column-middle {
+    transform: none;
+  }
+
+  .images-column-right {
+    transform: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  #signalingRoad {
+    padding: 3% 10% 5% 10%;
+  }
+
+  .signaling-road {
+    background-position-y: 10px;
+  }
+
+  .signaling-road-title {
+    padding-left: 0;
+  }
+}
