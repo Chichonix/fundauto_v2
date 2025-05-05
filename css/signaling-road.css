@@ -156,6 +156,20 @@
   }
 }
 
+@media (min-width: 390px) {
+  .images-column-left {
+    transform: translateX(20%);
+  }
+
+  .images-column-middle {
+    transform: translateX(50%);
+  }
+
+  .images-column-right {
+    transform: translateX(9%);
+  }
+}
+
 @media (min-width: 425px) {
   .images-column-left {
     transform: translateX(23%);
