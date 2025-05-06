@@ -1,9 +1,22 @@
 #licensesPlate,
 #accessories {
-  padding: 2% 8% 5% 8%;
+  padding: 120px 8% 5% 8%;
   overflow-x: hidden;
   overflow-y: hidden;
   box-sizing: border-box;
+  position: relative;
+}
+
+#licensesPlate {
+  top: -100px;
+}
+
+#accessories {
+  top: -200px;
+}
+
+.accessories {
+  scroll-margin-top: 1000px;
 }
 
 .licenses-plate-title {

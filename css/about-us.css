@@ -1,15 +1,13 @@
 #aboutUs {
   flex-direction: column;
-  padding: 2% 8% 5% 8%;
+  padding: 120px 8% 5% 8%;
   margin-top: 0;
   box-sizing: border-box;
   overflow-x: hidden;
   overflow-y: hidden;
   color: #6A6867;
-}
-
-.about-us {
-  scroll-margin-top: 1000px;
+  position: relative;
+  top: -250px;
 }
 
 .fundauto-fachada-container {

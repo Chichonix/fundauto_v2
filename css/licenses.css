@@ -1,5 +1,7 @@
 .licenses {
   padding: 2% 8% 5% 8%;
+  position: relative;
+  top: -200px;
 }
 
 .licenses-title {

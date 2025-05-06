@@ -1,8 +1,15 @@
 body {
+  height: 100%;
+  width: 100%;
   font-family: Roboto, "Helvetica Neue", sans-serif;
   font-style: normal;
   color: #6A6867;
-  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .title {
