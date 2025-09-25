@@ -140,12 +140,16 @@
   display: none;
 }
 
+.friday-schedule {
+  margin-top: 0;
+}
+
 @media (min-width: 375px) {
-.fundauto-img-contact-us {
-      width: 75px;
+  .fundauto-img-contact-us {
+    width: 75px;
     height: 40px;
     margin-top: 0;
-}
+  }
 }
 
 @media (min-width: 576px) {
@@ -229,6 +233,10 @@
     display: block;
     margin: 10px 0 0 0
   }
+
+  .friday-schedule {
+    margin-top: 20px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -252,6 +260,10 @@
 
   .schedule-desktop {
     display: none;
+  }
+  
+  .friday-schedule {
+    margin-top: 0;
   }
 }
 
