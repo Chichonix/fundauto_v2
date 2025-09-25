@@ -233,7 +233,7 @@
 
 @media (min-width: 992px) {
   .right-group {
-    padding: 20px 0 20px 10%;
+    padding: 20px 0 20px 5%;
   }
 
   .small-map {
@@ -245,10 +245,21 @@
   }
 }
 
+@media (min-width: 1030px) {
+  .schedule-mobile {
+    display: block;
+  }
+
+  .schedule-desktop {
+    display: none;
+  }
+}
+
 @media (min-width: 1200px) {
   #contactUs {
     padding: 3% 10% 5% 10%;
   }
+
 }
 
 @media (min-width: 1600px) {
